@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#title_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 50px;
+  min-height: 10vh;
+}
+#title_header > p {
+  color: grey;
+  font-size: 2rem;
+}
+
+#menu_sign {
+  height: 30px;
+  width: 30px;
+  justify-self: end;
+}
+
+main {
+  min-height: 80vh;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+}
+
+#logo_para {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+#logo_para > h2 {
+  font-size: 2.5rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#logo_para > p {
+  padding-bottom: 40px;
+}
+#our_breads {
+  display: grid;
+  place-items: center;
+  background-color: rgb(51, 51, 51);
+  color: aliceblue;
+  padding-top: 50px;
+}
+#our_breads > h1 {
+  margin-bottom: 50px;
+}
+#our_breads > * {
+  display: block;
+  margin: 10px 0;
+}
+
+#ob_img {
+  height: 300px;
+  width: 300px;
+  padding-top: 15px;
+}
+
+#white {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+  color: black;
+}
+#white > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#white > i {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#farmbread {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+  color: black;
+}
+#farmbread > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#farmbread > i {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#loafBread {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+  color: black;
+}
+#loafBread > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#loafBread > i {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#sourdough {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+  color: black;
+}
+#sourdough > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sourdough > i {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: grid;
+  background-color: rgb(206, 204, 204);
+}
+footer > * {
+  margin: 30px;
+  place-items: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
